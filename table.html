@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <ul class="list">
+        <li><a href="./home.html" class="robot">Home</a></li>
+        <li><a href="./gallery.html" class="monst">Gallery</a></li>
+        <li>
+          <a href="#" class="italic">Homework</a>
+          <ul class="second-list">
+            <li><a href="./table.html">Table</a></li>
+            <li><a href="./float.html">Float</a></li>
+            <li><a href="./inline.html">Inline-block</a></li>
+            <li class="lis">
+              <a href="#">Layotus</a>
+              <ul class="fles">
+                <li><a href="./flex.html">Flex</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+      <div class="container">
+        <table class="wd-600">
+          <colgroup>
+            <col class="bg-blue">
+            <col class="bg-green">
+            <col class="bg-gold">
+            <col span= "3" class="bg-green">
+        </colgroup>
+          <tbody>
+              <tr>
+                  <td colspan="2" class="bg-gray">1</td>
+                  <td class="bg-green">3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td rowspan="3" class="tbg-gre ">6</td>
+              </tr>
+              <tr>
+                  <td rowspan="2" class="bg-violet">7</td>
+                  <td>8</td>
+                  <td colspan="3" rowspan="2">9</td>
+              </tr>
+              <tr>
+                  <td>14</td>
+              </tr>
+              <tr>
+                  <td colspan="3" rowspan="2">19</td>
+                  <td>22</td>
+                  <td>23</td>
+                  <td rowspan="2" class="bg-violet">24</td>
+              </tr>
+              <tr>
+                  <td colspan="2" class="bg-gray">28</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+</body>
+</html>
