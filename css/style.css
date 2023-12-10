@@ -129,11 +129,14 @@ button {
     background-color: lightsalmon;
 }
 
+.lis{
+    position: relative;
+}
+
 .fles {
     position: absolute;
-    top: 135px;
-    left: -60%;
-    padding-right: 20px ;
+    top: 0;
+    right: 100%;
     display: none;
 }
 
@@ -163,6 +166,7 @@ button {
 .italic{
     font-family: 'Montserrat';
     font-weight: 300;
+    font-style: italic;
 }
 
 /* GALLERY */
