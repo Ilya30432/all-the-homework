@@ -72,6 +72,22 @@ button {
 
 /* Header */
 
+footer{
+    background-color: black;
+    padding: 30px ;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+main {
+    flex: 1;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -107,7 +123,7 @@ button {
     color: black;
     text-decoration: none;
     background-color: lightcoral;
-    padding: 10px 5px;
+    padding: 15px 10px;
     border-radius: 5px;
     white-space: nowrap;
 }
@@ -141,7 +157,7 @@ button {
 }
 
 .fles > li > a {
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 
 .fles > li:hover> a {
@@ -153,21 +169,58 @@ button {
     display: block;
 } 
 
-.robot{
+.list > li >.robot{
     font-family: 'Roboto';
     font-weight: 500;
+    background: black url('../img/Home.svg') no-repeat left;
+    padding: 15px 10px 15px 25px ;
+    color: white;
 }
 
-.monst{
+.list > li > .monst{
     font-family: 'Montserrat';
     font-weight: bold;
+    background: green url('../img/Gallery.svg') no-repeat left;
+    padding: 15px 10px 15px 25px ;
+    color: white;
 }
 
-.italic{
+.list > li >.italic{
     font-family: 'Montserrat';
     font-weight: 300;
     font-style: italic;
+    background: coral url('../img/arro.svg') no-repeat right;
+    padding: 15px 25px 15px 10px ;
+    color: white;
 }
+
+.second-list > li > .arrow{
+    background: rgb(86, 80, 255) url('../img/arrow.svg') no-repeat left;
+    padding: 15px 10px 15px 10px ;
+}
+
+.foot{
+   justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+.inst{
+    
+    background: white url('../img/insta.svg') no-repeat center;
+    padding: 10px 15px;
+}
+.vibe{
+    background: white url('../img/viber.svg') no-repeat center ;
+    padding: 10px 15px;
+}
+
+.tele{
+    background: white url('../img/telegram.svg') no-repeat center ;
+    padding: 10px 15px;
+}
+
+
 
 /* GALLERY */
 
