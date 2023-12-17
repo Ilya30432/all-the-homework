@@ -172,16 +172,16 @@ main {
 .list > li >.robot{
     font-family: 'Roboto';
     font-weight: 500;
-    background: black url('../img/Home.svg') no-repeat left;
-    padding: 15px 10px 15px 25px ;
+    background: black url('../img/Home.svg') no-repeat 5px/20px;
+    padding: 15px 10px 15px 30px ;
     color: white;
 }
 
 .list > li > .monst{
     font-family: 'Montserrat';
     font-weight: bold;
-    background: green url('../img/Gallery.svg') no-repeat left;
-    padding: 15px 10px 15px 25px ;
+    background: green url('../img/Gallery.svg') no-repeat 5px/20px;
+    padding: 15px 10px 15px 30px ;
     color: white;
 }
 
@@ -189,14 +189,18 @@ main {
     font-family: 'Montserrat';
     font-weight: 300;
     font-style: italic;
-    background: coral url('../img/arro.svg') no-repeat right;
+    background: coral url('../img/arro.svg') no-repeat 98%;
     padding: 15px 25px 15px 10px ;
     color: white;
 }
 
 .second-list > li > .arrow{
-    background: rgb(86, 80, 255) url('../img/arrow.svg') no-repeat left;
+    background: rgb(86, 80, 255) url('../img/arrow.svg') no-repeat 5px/20px;
     padding: 15px 10px 15px 10px ;
+}
+
+.foot > li > a {
+    display: block;
 }
 
 .foot{
@@ -208,16 +212,19 @@ main {
 .inst{
     
     background: white url('../img/insta.svg') no-repeat center;
-    padding: 10px 15px;
+    width: 30px;
+    height: 30px;
 }
 .vibe{
     background: white url('../img/viber.svg') no-repeat center ;
-    padding: 10px 15px;
+    width: 30px;
+    height: 30px;
 }
 
 .tele{
     background: white url('../img/telegram.svg') no-repeat center ;
-    padding: 10px 15px;
+    width: 30px;
+    height: 30px;
 }
 
 
