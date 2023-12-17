@@ -92,7 +92,6 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    
 }
 
 .header{
@@ -103,9 +102,7 @@ main {
     position: relative;
 }
 
-.list > li:hover > .second-list {
-    display: block;
-}
+
 
 .list {
     display: flex;
@@ -114,7 +111,6 @@ main {
     font-size: 20px;
     text-transform: uppercase ;
     text-align: center;
-    background-color: rgb(226, 223, 43);
     padding: 20px 10px;
 }
 
@@ -131,9 +127,15 @@ main {
     position: absolute;
     top: 100%;
     left: 0;
-    display: none;
     padding-top: 15px ;
     z-index: 10;
+    transform: translateY(-500%);
+    transition: all 1s ease;
+}
+
+
+.list > li:hover > .second-list {
+    transform: translateY(0%);
 }
 
 .second-list li  a {
@@ -226,6 +228,73 @@ main {
     width: 30px;
     height: 30px;
 }
+
+/* Menu*/
+
+.wrapper{
+    padding-left: 80px;
+    transition: all .8s ;
+}
+
+.aside-menu{
+    padding-top: 90px;
+    max-width: 80px;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(126, 119, 153);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transition: all .8s;
+}
+.aside-menu:hover{
+    max-width: 300px;
+}
+
+.aside-menu:hover + .wrapper{
+    padding-left: 300px;
+}
+
+.li{
+    margin-bottom: 5px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px 20px;
+}
+
+
+.links:hover .foto{
+    transform: rotate(45deg) scale(1.6) ;
+}
+
+.foto{
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    transition: all .5s;
+}
+
+.span{
+    overflow: hidden;
+    border: 3px solid brown ;
+    line-height: 10px;
+    padding: 2px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+}
+
+.li:hover{
+    background-color: lightseagreen;
+}
+
 
 
 
